@@ -1,0 +1,199 @@
+.footer{
+    height: 136px;
+}
+/*MAIN MENU*/
+.menu{
+    height: 30px;
+    background-color: #424242;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding: 3px 0;
+}
+.menu .nav-link{
+    color: #cdcdcd;
+    margin: 0 20px;
+    padding: 3px 0;
+}
+.menu .nav-link:last-child {
+    margin-right: 0;
+}
+.menu .nav-link:hover{
+    color: #fff;
+}
+/*SEARCH*/
+.search-bg{
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #dedede;
+}
+.search-bg .row{
+    height: 75px;
+}
+.form-inline>.form-control{
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px solid #28a745;
+    border-radius: .5rem 0 0 .5rem;
+}
+.click-search{
+    min-width: 99px;    
+    box-sizing: border-box;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 0 .5rem .5rem 0;
+    font-weight: 600;
+}
+/*CART*/
+.cart{
+    margin-top: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #dedede;
+}
+.basket{
+    font-size: 1.5rem;
+    color: #28a745;
+}
+.items>p::after{
+    content: "(2 items)";
+    font-size: .6rem;
+    padding-top: 8px;
+
+}
+/*WISHLIST*/
+.wishlist{
+    margin-top: 10px;
+    width: 80px;
+    text-align: center;
+}
+.wishlist>i::after{
+    content: "20";
+    background-color: #79b260;
+    padding: 0 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: .7rem;
+}
+.btn-checkout{
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    color: #d7d7d7;
+}
+/*BOOKS CATEGORIES BY CONTENT*/
+.categoriesfixed{
+    border-bottom: 1px solid #dedede;
+    background-color: #fff;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #fff;
+    background-color: #8fd371;;
+}
+.navbar-light .navbar-toggler{
+    border: none;
+}
+.menu-hover{
+    height: 136px;
+}
+/*CONTENT SPACE*/
+/*BANNER*/
+.banner,.dealOfMonth{
+    height: auto;
+}
+.banner .carousel-caption{
+    left: 35%;
+    right: 5%;
+    bottom: 15%;
+}
+.carousel-caption>h2{
+    font-size: 3vw;
+}
+.carousel-caption>p{
+    font-size: 1.7vw;
+    font-weight: 300;
+}
+.carousel-caption>h5{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+/*DEAL OF THE MONTH*/
+.dealOfMonth{
+    position: relative;
+}
+.dealOfMonth h3{
+    position: absolute;
+    top: 1%;
+    font-size: 2.2vw;
+    color: white;
+}
+.dealOfMonth h6{
+    position: absolute;
+    top: 14%;
+    font-size: 1.3vw;
+    font-weight: 300;
+    color: white;
+}
+.dealOfMonth p{
+    position: absolute;
+    top: 66%;
+    font-size: 1.6vw;
+    font-weight: 300;
+    color: white;
+}
+.dealOfMonth .hotPrice{
+    position: absolute;
+    top: 75%;
+    font-size: 1.9vw;
+    font-weight: 500;
+}
+.dealOfMonth button.buyNow{    
+    position: absolute;
+    top: 88%;
+    height: 30px;
+    width: auto;
+    background-color: #5dbb5d;
+    font-size: 1.3vw;
+    padding: 0 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+/*VIEW CATALOG CONTENT*/
+/*GATALOG MENU*/
+.listcategories{
+    width: 20%;
+    min-width: 150px;
+    height: 790px;
+    border: 1px solid #dedede;
+}
+.listcategories h2{
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding-left: 1rem;
+}
+.listcategories h3{
+    font-size: 1.3rem;
+    padding: .15rem 1rem;
+    margin-bottom: 0;
+    background-color: #86c56a;
+    color: #fff;
+}
+.listcategories .nav-item>a,.listcategories .listcategories-item{
+    color: #000;
+}
+.listcategories .nav-item>a{
+    padding: .5rem 1rem;
+    font-weight: 500;
+}
+.listcategories .listcategories-item{
+    text-decoration: none;
+    display: block;
+    padding-left: 1rem;
+    border-bottom: 1px solid #dedede;
+}
+.listcategories .nav-item>a:hover,.listcategories .listcategories-item:hover{
+    background-color: #86c56a;
+    color: #fff;
+    font-weight: 500;
+}
+/*CATALOG CONTENT*/
+.catalog>.books{
+    width: 80%;
+}

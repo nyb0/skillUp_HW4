@@ -1,0 +1,112 @@
+@media (max-width: 1200px) {   
+}
+
+@media (max-width: 992px) { 
+    /*GATALOG MENU*/
+    .listcategories .nav-item>a{
+        padding: .15rem .2rem;
+    }
+    .listcategories .listcategories-item{
+        padding: .15rem .2rem;
+    }
+    .listcategories h2{
+        padding: .15rem .2rem;
+    }
+}
+
+@media (max-width: 767.8px) {
+    /*SEARH*/
+    .search-bg>.row,
+    .footer>.navbar-expand-md{
+        max-width: 100%;
+        margin: 0;
+    }
+    .click-search>span{
+        display: none;
+    }
+    .click-search{
+        min-width: auto;
+    }
+    /*CART*/
+    .items>p{
+        display: none;
+    }
+    /*BANNER*/
+    .carousel-caption>h5{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    /*MAIN MENU*/
+    .menu .nav{
+        justify-content: center!important;
+        flex-wrap: nowrap;
+    }
+    .menu .nav-link{
+        margin: 0 auto;
+    }
+    .menu .nav-link:last-child {
+        margin: 0 auto;
+    }
+    /*LOGO*/
+    .logo{
+        width: 102px;
+        height: 55px;
+        margin-left: .25rem!important;
+        margin-right: .25rem!important;
+    }
+    /*HOTOFFER*/
+    .hotOffer{
+        display: block!important;
+    }
+    /*BANNER*/
+    .hotOffer>.banner{
+        width: 100%!important;
+    }
+    .carousel-caption>h2{
+        margin: 0;
+        font-size: 5vw;
+    }
+    .carousel-caption>p{
+        font-size: 4vw;
+        margin: 0;
+    }
+    .carousel-caption>h5{
+        display: block;
+        font-size: 3.5vw;
+        font-weight: 500;
+        margin: 0;
+    }
+    /*DEAL OF THE MONTH*/
+    .hotOffer>.dealOfMonth{
+        width: 50%!important;
+        margin-top: 1rem;
+        margin-left: 25%;
+    }
+    .dealOfMonth h3{
+        font-size: 5vw;
+    }
+    .dealOfMonth h6{
+        font-size: 3vw;
+    }
+    .dealOfMonth p{
+        font-size: 4vw;
+    }
+    .dealOfMonth .hotPrice{
+        font-size: 4.5vw;
+    }
+    .dealOfMonth button.buyNow{
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 450px) {
+    /*LOGO*/
+    .logo{
+        width: 68px;
+        height: 37px;
+        margin-left: .1rem!important;
+        margin-right: .1rem!important;
+    }
+}
