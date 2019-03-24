@@ -159,7 +159,7 @@
 /*GATALOG MENU*/
 .listcategories{
     width: 20%;
-    min-width: 150px;
+    min-width: 148px;
     height: 790px;
     border: 1px solid #dedede;
 }
@@ -194,6 +194,16 @@
     font-weight: 500;
 }
 /*CATALOG CONTENT*/
+.books>.nav-tabs .nav-link{
+    padding: 2px 0.1rem;
+    white-space: nowrap;
+
+}
 .catalog>.books{
     width: 80%;
+}
+.viewBooks{
+    height: calc(100% - 30px);
+    border: 1px solid #dedede;
+    overflow: hidden;
 }

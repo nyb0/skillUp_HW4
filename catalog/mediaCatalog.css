@@ -1,0 +1,49 @@
+.bestSellers{
+    box-sizing: border-box;
+    padding: 10px;
+    display: grid;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    grid-template-areas:
+        "book1 book2 book3"
+        "book4 book5 book6"
+        "book7 book8 book9";
+    justify-content: space-around;
+    align-items: baseline;
+}
+.bestSellers div:nth-child(1){
+    grid-area: book1;
+}
+.bestSellers div:nth-child(2){
+    grid-area: book2;
+}
+.bestSellers div:nth-child(3){
+    grid-area: book3;
+}
+.bestSellers div:nth-child(4){
+    grid-area: book4;
+}
+.bestSellers div:nth-child(5){
+    grid-area: book5;
+}
+.bestSellers div:nth-child(6){
+    grid-area: book6;
+}
+.bestSellers div:nth-child(7){
+    grid-area: book7;
+}
+.bestSellers div:nth-child(8){
+    grid-area: book8;
+}
+.bestSellers div:nth-child(9){
+    grid-area: book9;
+}
+.bestSellers img{
+    width: 150px;
+    height: auto;
+}
+.newArrivals{
+    background-color: #c51515;
+    height: 742px;
+}

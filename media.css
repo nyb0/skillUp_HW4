@@ -3,14 +3,17 @@
 
 @media (max-width: 992px) { 
     /*GATALOG MENU*/
+    .listcategories .nav-item>.nav-link{
+        padding: .5rem .2rem;
+    }
     .listcategories .nav-item>a{
-        padding: .15rem .2rem;
+        padding: 0 .2rem;
     }
     .listcategories .listcategories-item{
-        padding: .15rem .2rem;
+        padding: 0 .2rem;
     }
     .listcategories h2{
-        padding: .15rem .2rem;
+        padding: 0 .2rem;
     }
 }
 
@@ -56,6 +59,10 @@
         margin-left: .25rem!important;
         margin-right: .25rem!important;
     }
+    /*CONTENT*/
+    .content{
+        padding: 0 .2rem;
+    }
     /*HOTOFFER*/
     .hotOffer{
         display: block!important;
@@ -98,6 +105,16 @@
     }
     .dealOfMonth button.buyNow{
         font-size: 3vw;
+    }
+    /*CATALOG CONTENT TABS*/
+    .books>.nav-tabs .nav-link{
+        padding: 2px 1px;
+        font-size: 2.4vw;
+    }
+    .books>.nav-tabs .nav-item{
+        display: flex;
+        height: 30px;
+        align-items: center;
     }
 }
 
